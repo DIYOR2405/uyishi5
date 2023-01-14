@@ -1,0 +1,224 @@
+footer {
+  max-width: 1440px;
+  width: 100%;
+  height: 400px;
+}
+footer .galareya {
+  text-align: center;
+}
+footer .galareya h2 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+footer .galareya img {
+  margin: 10px;
+}
+footer .footer-bottom {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+* button {
+  width: 140px;
+  height: 50px;
+  background-color: #FF7400;
+  border: none;
+  color: #ffffff;
+}
+
+* span {
+  color: #D67E34;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  background-image: url(/img/hero\ image.png);
+}
+.header__logo {
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(85, 49, 195);
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header__nav__item {
+  margin: 10px;
+}
+.header__nav__item a {
+  color: rgb(212, 212, 221);
+}
+
+main .hearor {
+  width: 100%;
+  height: 650px;
+  background-image: url(/img/heroimage.png);
+  background-color: #000000;
+  opacity: black 50%;
+  color: #fff;
+  text-align: center;
+  padding-right: 700px;
+  padding-top: 100px;
+  font-size: 30px;
+}
+main .cards {
+  width: 100%;
+  height: 600px;
+  padding-top: 50px;
+  position: relative;
+  top: -140px;
+  display: flex;
+  justify-content: space-around;
+}
+main .cards__list {
+  text-align: center;
+  width: 349px;
+  height: 328px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+main .cards__list__item {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+}
+main .hero {
+  margin-top: -140px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  background-image: url(/img/430\ 1.png);
+  background-position: 880px;
+  background-repeat: no-repeat;
+}
+main .hero__img {
+  position: relative;
+}
+main .hero__text {
+  text-align: center;
+}
+main .hero__text h2 {
+  font-size: 35px;
+}
+main .hero__text p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.632);
+}
+main .hero__text ul {
+  display: flex;
+  justify-content: space-around;
+}
+main .kichik-bolim {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 360px;
+  background: rgba(0, 0, 0, 0.85);
+  background-image: url(/img/bg.png);
+  color: #FFFFFF;
+  font-size: 22px;
+}
+main .main__text {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+main .nashi-vlyuda {
+  display: inline-flex;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+main .nashi-vlyuda p {
+  font-size: 26px;
+}
+main .nashi-vlyuda__list {
+  padding-left: 100px;
+}
+main .nashi-vlyuda__list li {
+  display: flex;
+  margin-bottom: 20px;
+}
+main .nashi-menu {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  background-image: url(/img/bar-1869656_1920\ 2.png);
+  padding-bottom: 200px;
+  background-color: rgb(99, 136, 169);
+}
+main .nashi-menu .hh2 {
+  font-size: 35px;
+  padding-top: 120px;
+}
+main .nashi-menu div {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 200px;
+}
+main .nashi-menu__list {
+  width: 350px;
+  height: 480px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.873);
+}
+main .nashi-menu__list button {
+  background: #D67E34;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+main .nashi-menu__list p {
+  font-size: 16px;
+}
+main .nashi-menu__list h2 {
+  font-size: 26px;
+  padding-top: 30px;
+}
+main .nashi-menu__list img {
+  border-radius: 100%;
+  padding-top: 50px;
+}
+main .odam {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #E5E5E5;
+}
+main .odam img {
+  border-radius: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
